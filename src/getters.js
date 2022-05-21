@@ -115,7 +115,6 @@ function getItemByName(itemName) {
  */
 function getChampByName(champName) {
 	let found;
-	// we ought to be able to do better than iteratively
 	_.forEach(champions.data, (champ) => {
 		if (champ.name.toLowerCase() === champName.toLowerCase()) {
 			found = champ;
