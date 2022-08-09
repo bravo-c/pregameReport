@@ -1,9 +1,9 @@
 # Pregame Report
 
-This repository contains some basic usage of the Riot API integrated with NodeJS. 
-
-There are a few utility methods written on the util class that do most of the heavy lifting.
+This repository contains some basic usage of the Riot API integrated with NodeJS. The repo's name needs an update... 
 
 To run this code use:
-```node ./src/pregameReport.js```
+```npm start```
 
+To test this code use:
+```npm test```
