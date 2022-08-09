@@ -140,6 +140,16 @@ class Utils {
         throw "Ah shit, mb.";
     }
   }
+
+  async makeAPICallAndReturnResponseData(url) {
+    const result = await fetch(url);
+    const data = await result.json();
+    return data;
+  }
+
+  sum(a, b) {
+    return a + b;
+  }
 }
 
 module.exports = new Utils();
